@@ -1,0 +1,8 @@
+{% extends 'myblog/base.html' %}
+
+{% block content %}
+    <h1>Welcome to my Blog</h1>
+    <a class="btn btn-info" href="{% url 'post_list' %}">
+        Posts
+    </a>
+{% endblock %}
